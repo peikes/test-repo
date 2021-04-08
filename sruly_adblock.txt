@@ -1,1 +1,39 @@
-theyeshivaworld.com
+www.youtube.com##.html5-endscreen
+www.youtube.com###related
+youtube.com##.watch-sidebar
+youtube.com###chat
+##.ytp-pause-overlay
+! animated thumbnails
+ytimg.com/an_webp/$image,domain=youtube.com
+! videos on home page
+youtube.com##ytd-browse[page-subtype="home"]
+! Best of YouTube sidebar
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+! stops autoplay
+/watch_autoplayrenderer.js$script,domain=www.youtube.com
+/annotations_module.js$script,domain=www.youtube.com
+/endscreen.js$script,domain=www.youtube.com
+
+! 6/6/2019 https://stackoverflow.com
+stackoverflow.com###hot-network-questions
+stackexchange.com###hot-network-questions
+
+! 6/16/2019 http://kcm.fm
+kcm.fm###news
+
+! 8/5/2019 https://www.theyeshivaworld.com
+www.theyeshivaworld.com##a[href$="#comments"]
+www.theyeshivaworld.com##a[href$="#respond"]
+www.theyeshivaworld.com##.widget_display_topics.widget.td_block_template_14
+www.theyeshivaworld.com##.widget_display_replies.widget.td_block_template_14
+www.theyeshivaworld.com##.coffeeroomdesktop
+www.theyeshivaworld.com###comments
+
+! 12/31/2019 wikipedia.org
+wikipedia.org##.mwe-popups-discreet
+
+! 2021-01-24 https://www.google.com
+! removes Twitter preview from Google search
+www.google.com##.cv2VAd.THG0oc.zf84ud
+www.google.com##.dGWpb.mIKy0c.PjvVrf
+
