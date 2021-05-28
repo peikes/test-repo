@@ -37,3 +37,4 @@ wikipedia.org##.mwe-popups-discreet
 www.google.com##.cv2VAd.THG0oc.zf84ud
 www.google.com##.dGWpb.mIKy0c.PjvVrf
 
+||backgrounds.wetransfer.net/
