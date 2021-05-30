@@ -29,12 +29,17 @@ www.theyeshivaworld.com##.widget_display_replies.widget.td_block_template_14
 www.theyeshivaworld.com##.coffeeroomdesktop
 www.theyeshivaworld.com###comments
 
-! 12/31/2019 wikipedia.org
+! images in Wikipedia pop-ups
 wikipedia.org##.mwe-popups-discreet
+! content on Wikipedia home page
+en.wikipedia.org###mp-left
+en.wikipedia.org###mp-right
+en.wikipedia.org##.mw-parser-output > .mp-bordered.MainPageBG
 
 ! 2021-01-24 https://www.google.com
 ! removes Twitter preview from Google search
 www.google.com##.cv2VAd.THG0oc.zf84ud
 www.google.com##.dGWpb.mIKy0c.PjvVrf
 
+! backgrounds on WeTransfer
 ||backgrounds.wetransfer.net/
