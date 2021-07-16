@@ -43,3 +43,8 @@ www.google.com##.dGWpb.mIKy0c.PjvVrf
 
 ! backgrounds on WeTransfer
 ||backgrounds.wetransfer.net/
+
+! twitter sidebar
+twitter.com##[aria-label$="trending now" i]
+twitter.com##[aria-label$="Who to follow" i]
+twitter.com##*[aria-label="Timeline: "]
