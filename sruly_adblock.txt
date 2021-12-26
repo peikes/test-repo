@@ -48,3 +48,12 @@ www.google.com##.dGWpb.mIKy0c.PjvVrf
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label$="Who to follow" i]
 twitter.com##*[aria-label="Timeline: "]
+
+! 2021-12-26 https://variety.com
+! sidebar and breadcrumbs
+variety.com##.most-popular-sidebar
+variety.com##.must-read-widget
+variety.com##.iheart-widget
+variety.com##.newsletter__inner
+variety.com##.breadcrumbs
+
