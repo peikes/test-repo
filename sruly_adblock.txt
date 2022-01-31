@@ -59,4 +59,4 @@ variety.com##.must-read-widget
 variety.com##.iheart-widget
 variety.com##.newsletter__inner
 variety.com##.breadcrumbs
-
+variety.com##.main-menu
