@@ -48,6 +48,9 @@ www.google.com##.dGWpb.mIKy0c.PjvVrf
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label$="Who to follow" i]
 twitter.com##*[aria-label="Timeline: "]
+! twitter more tweets
+twitter.com##h2:has-text(/More Tweets/i):upward(3)
+twitter.com##h2:has-text(/More Tweets/i):upward(3) ~ div
 
 ! 2021-12-26 https://variety.com
 ! sidebar and breadcrumbs
