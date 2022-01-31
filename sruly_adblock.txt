@@ -2,7 +2,7 @@ www.youtube.com##.html5-endscreen
 www.youtube.com###related
 youtube.com##.watch-sidebar
 youtube.com###chat
-##.ytp-pause-overlay
+youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
 ! animated thumbnails
 ytimg.com/an_webp/$image,domain=youtube.com
 ! videos on home page
