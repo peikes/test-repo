@@ -60,3 +60,4 @@ variety.com##.iheart-widget
 variety.com##.newsletter__inner
 variety.com##.breadcrumbs
 variety.com##.main-menu
+variety.com##.lrv-u-margin-r-050
