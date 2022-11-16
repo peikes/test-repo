@@ -64,6 +64,7 @@ variety.com##.lrv-u-margin-r-050
 variety.com##.article-tags
 variety.com##.js-MegaMenu-Trigger
 variety.com##.newswire__wrapper
+variety.com##.c-span
 
 ! mostlymusic.com links to other sites
 mostlymusic.com##.logo-list-section
