@@ -32,9 +32,9 @@ www.theyeshivaworld.com###comments
 ! images in Wikipedia pop-ups
 wikipedia.org##.mwe-popups-discreet
 ! content on Wikipedia home page
-! en.wikipedia.org###mp-left
-! en.wikipedia.org###mp-right
-! en.wikipedia.org##.mw-parser-output > .mp-bordered.MainPageBG
+en.wikipedia.org###mp-upper
+en.wikipedia.org###mp-middle
+en.wikipedia.org###mp-lower
 
 ! 2021-01-24 https://www.google.com
 ! removes Twitter preview from Google search
