@@ -71,3 +71,8 @@ mostlymusic.com##.logo-list-section
 
 ! substack.com recommendations
 substack.com##.recommendations
+
+! reddit.com home page
+reddit.com##:matches-path(/^/$/).ListingLayout-outerContainer,#siteTable
+reddit.com##:matches-path(/?feed=home).ListingLayout-outerContainer,#siteTable
+reddit.com##:matches-path(/r/popular).ListingLayout-outerContainer,#siteTable
