@@ -80,4 +80,3 @@ reddit.com##:matches-path(/^/$/).ListingLayout-outerContainer,#siteTable
 reddit.com##:matches-path(/?feed=home).ListingLayout-outerContainer,#siteTable
 reddit.com##:matches-path(/r/popular).ListingLayout-outerContainer,#siteTable
 
-!adding this line to see if it sticks
