@@ -18,6 +18,8 @@ www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-o
 ! 6/6/2019 https://stackoverflow.com
 stackoverflow.com###hot-network-questions
 stackexchange.com###hot-network-questions
+superuser.com###hot-network-questions
+serverfault.com###hot-network-questions
 
 ! 6/16/2019 http://kcm.fm
 kcm.fm###news
@@ -70,10 +72,10 @@ variety.com##.c-span
 ! mostlymusic.com links to other sites
 mostlymusic.com##.logo-list-section
 
-! substack.com recommendations
-substack.com##.recommendations
-
 ! reddit.com home page
 reddit.com##:matches-path(/^/$/).ListingLayout-outerContainer,#siteTable
 reddit.com##:matches-path(/?feed=home).ListingLayout-outerContainer,#siteTable
 reddit.com##:matches-path(/r/popular).ListingLayout-outerContainer,#siteTable
+
+! 2023-03-31 https://genius.com
+genius.com##.cYtdTH.MusicVideo__Container-sc-1980jex-0
