@@ -32,6 +32,8 @@ www.theyeshivaworld.com##.widget_display_topics.widget.td_block_template_14
 www.theyeshivaworld.com##.widget_display_replies.widget.td_block_template_14
 www.theyeshivaworld.com##.coffeeroomdesktop
 www.theyeshivaworld.com###comments
+www.theyeshivaworld.com##.widget_display_topics.coffee-room-widget
+www.theyeshivaworld.com##.elementor-post-info__item--type-comments
 
 ! images in Wikipedia pop-ups
 wikipedia.org##.mwe-popups-discreet
