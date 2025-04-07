@@ -42,11 +42,6 @@ en.wikipedia.org###mp-upper
 en.wikipedia.org###mp-middle
 en.wikipedia.org###mp-lower
 
-! 2021-01-24 https://www.google.com
-! removes Twitter preview from Google search
-www.google.com##.cv2VAd.THG0oc.zf84ud
-www.google.com##.dGWpb.mIKy0c.PjvVrf
-
 ! backgrounds on WeTransfer
 ||backgrounds.wetransfer.net/
 
@@ -72,13 +67,17 @@ variety.com##.js-MegaMenu-Trigger
 variety.com##.newswire__wrapper
 variety.com##.c-span
 
-! mostlymusic.com links to other sites
-mostlymusic.com##.logo-list-section
-
-! reddit.com home page
-reddit.com##:matches-path(/^/$/).ListingLayout-outerContainer,#siteTable
-reddit.com##:matches-path(/?feed=home).ListingLayout-outerContainer,#siteTable
-reddit.com##:matches-path(/r/popular).ListingLayout-outerContainer,#siteTable
-
 ! 2023-03-31 https://genius.com
 genius.com##.cYtdTH.MusicVideo__Container-sc-1980jex-0
+
+! reddit home page
+www.reddit.com##:matches-path(/^\/(\?.*)?$/) .main-container
+www.reddit.com##:matches-path(/^\/(\?.*)?$/) left-nav-top-section
+www.reddit.com##:matches-path(/^\/(\?.*)?$/) .masthead
+reddit.com###reddit-trending-searches-partial-container
+! reddit sidebars
+reddit.com###left-sidebar-container
+reddit.com###right-sidebar-container
+! reddit search
+reddit.com###search-input
+reddit.com##[data-testid="search-dropdown-results-container"]
