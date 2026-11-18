@@ -7,6 +7,8 @@ www.youtube.com##.ytp-fullscreen-grid
 ! animated thumbnails
 ytimg.com/an_webp/$image,domain=youtube.com
 www.youtube.com###video-preview-container
+www.youtube.com##ytd-video-preview
+m.youtube.com##ytm-video-preview
 ! videos on home page
 youtube.com##ytd-browse[page-subtype="home"]
 ! Best of YouTube sidebar
@@ -17,16 +19,15 @@ www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-o
 /endscreen.js$script,domain=www.youtube.com
 ! Most relevant
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer
-
+! mobile
+m.youtube.com##[tab-identifier="FEwhat_to_watch"]
+m.youtube.com##[section-identifier="related-items"]
 
 ! 6/6/2019 https://stackoverflow.com
 stackoverflow.com###hot-network-questions
 stackexchange.com###hot-network-questions
 superuser.com###hot-network-questions
 serverfault.com###hot-network-questions
-
-! 6/16/2019 http://kcm.fm
-kcm.fm###news
 
 ! 8/5/2019 https://www.theyeshivaworld.com
 www.theyeshivaworld.com##a[href$="#comments"]
@@ -45,17 +46,6 @@ en.wikipedia.org###mp-upper
 en.wikipedia.org###mp-middle
 en.wikipedia.org###mp-lower
 
-! backgrounds on WeTransfer
-||backgrounds.wetransfer.net/
-
-! twitter sidebar
-twitter.com##[aria-label$="trending now" i]
-twitter.com##[aria-label$="Who to follow" i]
-twitter.com##*[aria-label="Timeline: "]
-! twitter more tweets
-twitter.com##h2:has-text(/More Tweets/i):upward(3)
-twitter.com##h2:has-text(/More Tweets/i):upward(3) ~ div
-
 ! 2021-12-26 https://variety.com
 ! sidebar and breadcrumbs
 variety.com##.most-popular-sidebar
@@ -70,8 +60,8 @@ variety.com##.js-MegaMenu-Trigger
 variety.com##.newswire__wrapper
 variety.com##.c-span
 
-! 2023-03-31 https://genius.com
-genius.com##.cYtdTH.MusicVideo__Container-sc-1980jex-0
+! Hide embedded videos in Genius Q&A answers
+genius.com##[data-testid="question-list"] .embedly_preview--video
 
 ! reddit home page
 www.reddit.com##:matches-path(/^\/(\?.*)?$/) .main-container
